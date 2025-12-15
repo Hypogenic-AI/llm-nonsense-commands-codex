@@ -1,0 +1,21 @@
+{
+  "run_id": "run_1765762800",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "summary": {
+    "baseline": {
+      "attack_success_rate": 0.4166666666666667,
+      "explanation_similarity": 0.8138386408487955,
+      "prompt_perplexity": 71.05302092546093
+    },
+    "gibberish": {
+      "attack_success_rate": 0.6666666666666666,
+      "explanation_similarity": 0.825573111573855,
+      "prompt_perplexity": 358.11334914401976
+    },
+    "fluent": {
+      "attack_success_rate": 0.9166666666666666,
+      "explanation_similarity": 0.7629671369989713,
+      "prompt_perplexity": 175.61556335182522
+    }
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "variant":"baseline",
+    "attack_success_rate":0.4166666667,
+    "explanation_similarity_mean":0.8138386408,
+    "explanation_similarity_std":0.0542943543,
+    "prompt_perplexity_mean":71.0530209255,
+    "prompt_perplexity_std":61.0560128343
+  },
+  {
+    "variant":"fluent",
+    "attack_success_rate":0.9166666667,
+    "explanation_similarity_mean":0.762967137,
+    "explanation_similarity_std":0.1845938572,
+    "prompt_perplexity_mean":175.6155633518,
+    "prompt_perplexity_std":33.117023457
+  },
+  {
+    "variant":"gibberish",
+    "attack_success_rate":0.6666666667,
+    "explanation_similarity_mean":0.8255731116,
+    "explanation_similarity_std":0.0625406708,
+    "prompt_perplexity_mean":358.113349144,
+    "prompt_perplexity_std":89.7725646415
+  }
+]
